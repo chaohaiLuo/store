@@ -1,0 +1,323 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #c0c0c0;
+}
+a{ 
+	text-decoration: none; 
+	color: #000;}
+li{list-style: none;
+}
+.head{
+	background-color: #fff; 
+	width: 1200px; 
+	margin:10px auto;
+	position: relative;
+	margin-bottom: 0px;
+} 
+.head .head-logo{
+	margin:0 4.167%;
+}
+.head .head-logo .input-group{
+	width: 35% ;
+	height: 41px;
+	position: absolute;
+	top:24px;
+	left: 32.5%;
+}
+.head .head-logo .btn-group{
+	width: 13.5%;
+	height: 34px; 
+	margin: 23px 0px;
+}
+
+#suggest{
+	display: none;
+	width:388px;
+	background-color:#fff;
+	position:absolute;
+	border-width:1px;
+	border-style:solid;
+	border-color: #999;
+	padding: 0;
+	margin: 0;
+}
+#suggest_result{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#suggest_result li{
+	padding:3px;line-height:25px;font-size: 14px;color: #777;
+	cursor: pointer;
+}
+#suggest_result li:hover{
+	background-color:#e5e5e5;;
+}
+
+.head .head-logo .head-logo-nav{
+	width: 11%;
+	height: 34px;
+	margin: 5px 0px;
+	position: absolute;
+	top: 24px;
+	right: 18.67%;
+}
+.head .head-logo .head-logo-nav li{
+	float: left;
+	display: inline-block;
+	padding: 5px 5px;
+}
+.head .head-nav-container{
+	background-color: #464342;
+	height: 48px;
+}
+.head .head-nav-container .head-nav{
+	height: 48px;
+	margin: 0px 50px;
+	position: relative;
+}
+.head .head-nav-container .head-nav .first{
+	padding: 0px 100px 0px 40px;
+	color: #fff;
+}
+.head .head-nav-container .head-nav .first:hover{
+	background-color: #f9592e;
+}
+.head .head-nav-container .head-nav .ul_first {
+	float: left;
+	display: inline-block;
+	line-height: 48px;
+	font-size: 14px;
+	padding-left:40px; 
+}
+.head .head-nav-container .head-nav .ul_first a{
+	color: #fff;
+}
+
+.head .head-nav-container .head-nav .head_nav_choose{
+	width: 196px;
+	height: 340px;
+	position: absolute;
+	left: 0px;
+	bottom: -340px;
+	z-index: 4;
+	display: none;
+}
+.head .head-nav-container .head-nav .head_nav_choose ul{
+	padding:10px 0px;
+	background-color: #fff;
+}
+.head .head-nav-container .head-nav .head_nav_choose ul li{
+	padding: 10px 10px 10px 40px;
+}
+.head .head-nav-container .head-nav .head_nav_choose ul .active:hover{
+	background-color: #f9592e;
+}
+.head .head-nav-container .head-nav .head_nav_choose ul .active:hover span{
+	color: #fff;
+}
+.head .head-nav-container .head-nav .head_nav_choose .head_nav_choose_ul .sgzf{
+	width: 330px;
+	height: 340px;
+	position: absolute;
+	left: 196px;
+	top:0px;
+	z-index:4;
+	display: none;
+	background-color: #fff;
+}
+.head_nav_choose_ul .sgzf .sgzf_container{
+	margin: 10px 32px;
+	width: 266px;
+	height: 320px;
+}
+.head_nav_choose_ul .sgzf .sgzf_container .sgzf_ul{
+	padding-left: 0px;
+}
+.head_nav_choose_ul .sgzf .sgzf_container .sgzf_ul li{
+	display: inline-block; 
+	padding: 0px 15px 0px 0px!important;
+}
+.head_nav_choose_ul .sgzf .sgzf_container h2{
+	border-bottom: 1px solid #8f8f8f;
+}
+.content1{
+	margin:0px auto;
+}
+.content1 .carousel ol li{
+	width: 30px;
+	height: 6px;
+	background-color: #c4c1bb;
+	margin-right: 12px;
+}
+.content1 .carousel ol .active{
+	background-color: #464342;
+}
+.content1 .carousel ol{
+	text-align: right; 
+	right: 50px;
+	left: inherit;
+}
+.content1 .item .carousel-caption{
+	text-align: left;
+	color: #000;
+	margin-bottom: 115px;
+	padding-left: 85px;
+}
+.content1 .item .carousel-caption p,.content1 .item .carousel-caption h2{
+	font-family: "微软雅黑";
+	color: #2a2a2a;
+}
+.content2{
+	width: 1200px;
+	margin: 0px auto;
+	height: 505px;
+	background-color: #fff;
+	padding-top: 60px;
+	border-bottom: 1px solid #dbdbdb;
+}
+.content2 .choose{
+	background-color: #464342;
+	height: 48px;
+	line-height: 48px;
+}
+.content2 .choose  a{
+	color: #fff;
+}
+.content2 .choose:hover{
+	background-image: url("../images/homepage/background1.jpg"); 
+	height: 53px;
+}
+.content2 .container-fluid .slick-slide{
+	width: 273px!important;
+	margin-top: 20px;
+} /*用来改变默认样式*/
+.content2 .slick-dots{
+	display: none!important;
+}
+.content2 .slider{
+	padding: 0px 38px;
+}
+
+
+.content3{
+	width: 1200px;
+	margin: 0px auto;
+	height: 410px;
+	background-color: #fff;
+}
+.content3 .container-fluid{
+	padding: 0px;
+}
+.content3 .item .carousel-caption{
+	text-align: left;
+	color: #000;
+	margin-bottom: 55px;
+	padding-left: 85px;
+}
+
+.content4{
+	width: 1200px;
+	margin: 0px auto;
+	height: 447px;
+	background-color: #fff;
+}
+.content4 .container-fluid{
+	padding: 57px 50px 0px;
+}
+.content4 .container-fluid .row .col-md-3{
+	padding-left: 10px;
+}
+.content4 .container-fluid .row .col-md-3 p{
+	margin: 10px 0px;
+}
+.content4 .container-fluid .row .col-md-3 strong{
+	color:#f2293c;
+	display:inline-block;
+	font-size:20px;
+	padding-right:10px;
+}
+
+.content5{
+	width: 1200px;
+	margin: 0px auto;
+	height: 446px;
+	background-color: #fff;
+	border-bottom: 1px solid #dbdbdb;
+}
+.content5 .container-fluid{
+	padding: 0px 50px;
+}
+.content5 .container-fluid .con strong{
+	color:#f2293c;
+	display:inline-block;
+	font-size:20px;
+	padding-right:10px;
+}
+.content5 .container-fluid .con p{
+	margin: 22px 0px;
+	text-align: center;
+}
+.content5 .container-fluid .col-md-3{
+	position: relative;
+}
+.content5 .container-fluid .col-md-3 .con-position{
+	position: absolute;
+	width: 210px;
+	height: 60px;
+	bottom: 20px;
+	left: 35px;
+	background-color: #efefef;
+	opacity: 0.8;
+}
+.content6{
+	width: 1200px;
+	margin: 0px auto;
+	height: 260px;
+	background-color: #fff;
+}
+.content6 .container-fluid .slick-slide{
+	width: 273px!important;
+	border: 1px solid #dedede;
+}
+.content6 .slider{
+	padding: 0px 37px;
+}
+.content6 .slick-dots{
+	display: none!important;
+}
+
+.footer{
+	width: 1200px;
+	margin: 0px auto;
+	height: 320px;
+	background-color: #f4f4f4;
+}
+.footer .container-fluid{
+	padding: 0px 50px;
+}
+.footer .container-fluid .col-md-4{
+	padding: 55px 15px 0px;
+}
+.footer .container-fluid .col-md-4 ul{
+	padding: 0px;
+}
+.footer .container-fluid .col-md-4 .about{
+	padding-bottom: 24px;
+	font-size: 14px;
+}
+.footer .container-fluid .col-md-4 ul li{
+	padding-bottom: 15px;
+	font-size: 12px;
+	color: #313131;
+}
+.footer .container-fluid .footer-con{
+	margin-top: 100px;
+}
+.footer .footer-last{
+	background-color:#000;
+	height: 40px;
+	margin: 25px 0px 0px; 
+}
+

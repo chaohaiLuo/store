@@ -1,0 +1,149 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #c0c0c0;
+}
+a{
+	text-decoration: none; 
+	color: #000;
+}
+li{
+	list-style: none;
+}
+.head{
+	background-color: #fff; 
+	width: 1200px; 
+	margin:10px auto;
+	position: relative;
+	margin-bottom: 0px;
+} 
+.head-logo{
+	margin:0 100px;
+}
+.input-group{
+	width: 35% ;
+	height: 41px;
+	position: absolute;
+	top:24px;left: 
+	32.5%;
+}
+.btn-group{
+	width: 148px;
+	height: 34px; 
+	margin: 23px 0px;
+}
+.head-logo-nav{
+	width: 11%;
+	height: 34px;
+	margin: 5px 0px;
+	position: absolute;
+	top: 24px;
+	right:245px;
+}
+.head-logo-nav li{
+	float: left;
+	display: inline-block;
+	padding: 5px 5px;
+}
+
+.head-nav-container{
+	background-color: #464342;
+	height: 48px;
+}
+.head-nav{
+	height: 48px;
+	margin: 0px 100px;
+}
+.first{
+	padding: 0px 100px 0px 40px;
+	color: #fff;
+}
+.first:hover{
+	background-color: #f9592e;
+}
+.head-nav li{
+	float: left;
+	display: inline-block;
+	line-height: 48px;
+	font-size: 14px;
+	padding-left:40px;
+}
+.head-nav li a{
+	color: #fff;
+}
+
+
+.content{
+	width: 1200px;
+	height: 455px;
+	background-color: #fff;
+	margin: 0px auto;
+}
+.container-fluid{
+	padding:0px;
+}
+.content-login{
+	margin-top: 75px;
+	padding-right:68px; 
+	width: 305px;
+	height: 315px;
+	float: right;
+	position: relative;
+	border-right:1px solid #aeadad;
+}
+.content-login form input{
+	border-radius: 1px;
+	height: 40px;
+}
+.col-md-6{
+	padding: 0px;
+}
+.row{
+	margin: 0px;
+}
+.content-social{
+	margin-top: 158px;
+	width: 355px;
+	height: 70px;
+	padding-left: 65px;
+}
+.content-social i{
+	display: inline-block;
+	margin-right: 18px;
+	margin-top: 10px;
+}
+.footer{
+	width: 1200px;
+	margin: 0px auto;
+	height: 320px;
+	background-color: #f4f4f4;
+}
+.container-fluid{
+	padding: 0px 50px;
+}
+.col-md-4{
+	padding: 55px 15px 0px;
+}
+.col-md-4 ul{
+	padding: 0px;
+}
+.col-md-4 .about{
+	padding-bottom: 24px;
+	font-size: 14px;
+}
+.col-md-4 ul li{
+	padding-bottom: 15px;
+	font-size: 12px;
+	color: #313131;
+}
+.footer-con{
+	margin-top: 100px;
+}
+.footer-last{
+	background-color:#000;
+	height: 40px;
+	margin: 25px 0px 0px;
+}
+.error{
+	color: red;
+}
